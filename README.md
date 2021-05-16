@@ -24,7 +24,7 @@
   
   ## Installation: 
  
-  The user can clone the repo and npm `npm i` within the root directory, server, and client directories to install the packages necessary the application.
+  The user can clone the repo and npm `npm i` within the root directory, server, and client directories to install the packages necessary the application. Upon initially seeding data when deploying or re-deploying app to Heroku, change heroku-postbuild in package.json in root directory to: `"heroku-postbuild": "concurrently \"cd client && npm run build\" \"cd server && npm run seed\""`
   
 
   
