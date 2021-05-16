@@ -6,6 +6,9 @@
 
   The Shop-Shop app is an e-commerce app that utilizes React, React Context for global state management, IndexedDB for persistent storage, MongoDB, Mongoose, Apollo, the Stripe library for processing payments, and CSS. The app functions as a PWA, allowing the user to continue browsing the products and adding/deleting products from their cart. The items are persistent upon page reload, as well. 
 
+  # Deployed Site:
+  https://dry-sierra-85935.herokuapp.com/
+
   ![Home Page](./images/SS1.png)
   ---
   ![Cart](./images/SS2.png)
